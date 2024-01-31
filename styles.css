@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.section-one {
+    display: flex;
+    justify-content: space-between;
+    background: #1F2937;
+    color: white;
+}
+
+.header {
+    padding: 40px 200px 0px 200px;
+}
+
+.header-right{
+    display: flex;
+    gap: 16px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.section-one {
+    padding: 100px 200px 100px 200px;
+    gap: 25px;
+}
+.section-one-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.section-one-right {
+    width: 50%;
+    background-color: grey;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    
+}
