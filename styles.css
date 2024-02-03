@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-
+    font-family: sans-serif;
 }
 
 body {
@@ -18,9 +18,15 @@ body {
 
 .header {
     padding: 40px 200px 0px 200px;
+    color: #F9FAF8;
 }
 
-.header-right{
+.header-left {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.header-right {
     display: flex;
     gap: 16px;
 }
@@ -29,6 +35,7 @@ h1 {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+    margin: 0px;
 }
 
 .hero-secondary {
@@ -44,6 +51,15 @@ h1 {
     display: flex;
     flex-direction: column;
     width: 50%;
+    gap: 10px;
+}
+
+button {
+    background-color: #3882F6;
+    padding: 6px 24px;
+    color: white;
+    font-weight: 700;
+    border-radius: 12px;
 }
 
 .section-one-right {
@@ -54,9 +70,23 @@ h1 {
 .section-two {
     display: flex;
     flex-direction: column;
+    margin-bottom: 100px;
+
+}
+
+h2 {
+    align-self: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
 }
 
 .container {
     display: flex;
-    
+    text-align: center;
+}
+
+.information-image {
+    border: 0.3em solid blue;
+    height: auto;
 }
