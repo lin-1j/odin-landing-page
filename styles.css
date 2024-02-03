@@ -71,11 +71,13 @@ button {
     display: flex;
     flex-direction: column;
     margin-bottom: 100px;
+    padding: 0 200px 0 200px;
 
 }
 
 h2 {
     align-self: center;
+    text-align: center;
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
@@ -84,9 +86,38 @@ h2 {
 .container {
     display: flex;
     text-align: center;
+    gap: 32px;
+    justify-content: center;
 }
 
 .information-image {
     border: 0.3em solid blue;
     height: auto;
+}
+
+.section-three {
+    background-color: #E5E7EB;
+    padding: 100px 250px 100px 250px;
+    font-size: 30px;
+    font-style: italic;
+    color: rgb(68, 68, 68);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.author {
+    align-self: flex-end;
+    font-size: 20px;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.footer-container {
+    padding: 100px 200px 100px 200px;
+}
+
+.footer {
+    padding: 25px 50px 25px 50px;
+    background-color: #3882F6;
 }
